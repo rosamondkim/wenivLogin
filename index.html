@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+</head>
+<body>
+    <article class="wrapper">
+        <img src="/img/weniv-logo.png" alt="" class="login-logo">
+        <p class="login-cont">위니브를 더 즐겁고 편리하게 이용하세요.</p>
+        <button class="login-openModalbtn">로그인</button>
+    </article>
+    <div class="modal-wrapper hidden" id="modalwrapper">
+        <div class="login-modal">
+            <div class="modal-title">
+                <h2>로그인 또는 회원가입</h2>
+                <button class="modal-closeBtn"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-cont">
+                <p class="modal-subtitle">위니브에서 여러분의 궁금증을 해결하세요! :)</p>
+                <form id="login-form">
+                    <input type="text" class="loginId" placeholder="아이디" required>
+                    <input type="password" class="loginPw" placeholder="비밀번호" required>
+                    <button class="login-save">
+                        <img src="/img/check-box.png" alt="로그인 상태 유지 버튼 class="login-saveBtn>
+                        <span>로그인 상태 유지</span>
+                    </button>
+                    <button class="login-btn">로그인</button>
+                </form>
+                <div class="login-join">
+                    <span>회원가입</span>
+                    <span>|</span>
+                    <span>아이디/비밀번호 찾기</span>
+                </div>
+                <span class="modal-or">
+                    또는
+                </span>
+                <div class="login-link">
+                    <div class="link-sns">
+                        구글 계정으로 로그인
+                    </div>
+                    <div class="link-sns">페이스북 계정으로 로그인</div>
+                    <div class="link-sns">페이스북 계정으로 로그인</div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
+    </script>
+    <script src="login.js"></script>
+</body>
+</html>

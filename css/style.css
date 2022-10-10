@@ -1,0 +1,164 @@
+:root{
+    --line-color: #c4c4c4
+}
+body{
+    background-color: #F2F2F2;
+}
+.wrapper{
+    margin:0 auto;
+    margin-top:286px;
+    background-color:#fff;
+    width: 500px;
+    border: 1px solid var(--line-color);
+    border-radius: 5px;
+    text-align: center;
+}
+.login-logo{
+    margin-top: 30px;
+    margin-bottom: 28px;
+
+}
+.login-cont{
+    margin-bottom: 32px;
+}
+.login-openModalbtn{
+    width: 440px;
+    height: 60px;
+    font-size: 22px;
+    color:#fff;
+    font-weight: 700;
+    background: #2F80ED;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+/* 모달창 */
+.hidden{
+    display: none;
+}
+.modal-wrapper{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.login-modal{
+    margin: 30px auto;
+    text-align: center;
+    width: 520px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+
+.modal-title{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid var(--line-color);
+    padding: 20px 24px 18px 0;
+}
+.modal-title h2{
+    flex-grow: 1;
+}
+.modal-closeBtn{    
+    color: #767676;
+    font-size:22px;
+}
+.modal-subtitle{
+    text-align: left;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+.modal-cont{
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+}
+.modal-cont input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding:15px 0 15px 16px;
+    border:1px solid var(--line-color);
+    border-radius: 5px;
+}
+.login-save{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+.login-saveBtn{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap:8px;
+    color:#767676;
+}
+.login-btn{
+    background-color: #2F80ED;
+    width: 472px;
+    height: 50px;
+    margin:20px 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.login-join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:14px;
+    gap:10px;
+    color:#767676;
+}
+.modal-or{
+    display: flex;
+    justify-content: space-around;
+    gap:13px;
+    color:#767676;
+    margin-top:30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    white-space:nowrap;
+}
+.modal-or::before{
+    display: block;
+    content:"";
+    width: 100%;
+    height: 1px;
+    margin: auto 0;
+    background-color:var(--line-color);
+}
+.modal-or::after{
+    display: block;
+    content:"";
+    width: 100%;
+    height: 1px;
+    margin: auto 0;
+    background-color:var(--line-color);
+}
+.login-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px;
+}
+.link-sns{
+    width: 100%;
+    padding: 15px 0;
+    color:#767676;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    flex-grow:1;
+}
+.link-sns:first-child::before{
+    vertical-align: middle;
+    background-image: url(/img/Google__G__Logo\ 1.png);
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-left: 12px;
+    flex-grow: 1;
+}
